@@ -4,12 +4,18 @@
 
 参考 http://blog.csdn.net/quarryman/article/details/8450387
 
-需要opencv头文件和库文件
+#需要
 
-编译 make mkinfo
+* opencv头文件(编译)
+* 库文件(运行)
 
-使用(单个)
-mkinfo <img>
+#编译 
+    
+    make mkinfo
+
+#使用(单个)
+    
+    mkinfo <img>
 
 打开文件 左上角点一下,右下角点一下 任意键盘按键退出(备注1: 注释这里方便批量手动设置)
 
@@ -19,9 +25,10 @@ mkinfo <img>
 
 这样会跳出一副图片,然后鼠标点击识别区域的左上角,再点击右下角.图片窗口退出,这个识别区域保存到info文件中的一行,然后继续弹出下一张图片.
 
-文件默认保存在info.dat文本文件内  INFO_FILE_NAME 宏定义
+文件默认保存在info.dat文本文件内`INFO_FILE_NAME`宏定义
 
     mkinfo:32位的 debian7下编译的,需要opencv2.4 lib文件的可执行二进制文件.
     如果需要,可直接执行这个文件
     
-TODO: 暂时每张图片限制只有一个识别的图形.多个选起来比较麻烦,就不做了:P
+#TODO
+* 暂时每张图片限制只有一个识别的图形.多个选起来比较麻烦,就不做了:P
