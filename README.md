@@ -21,4 +21,7 @@ mkinfo <img>
 
 文件默认保存在info.dat文本文件内  INFO_FILE_NAME 宏定义
 
+    mkinfo:32位的 debian7下编译的,需要opencv2.4 lib文件的可执行二进制文件.
+    如果需要,可直接执行这个文件
+    
 TODO: 暂时每张图片限制只有一个识别的图形.多个选起来比较麻烦,就不做了:P
